@@ -5,46 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html-css-boolando</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 <!-- header arancio fixed -->
     <header>
         <div class="header-orange">
-            <p>Donna Uomo Bambini</p>
+            <ul>
+                <li>Uomo</li>
+                <li>Donna</li>
+                <li>Bambino</li>
+            </ul>
             <div class="logo-boolean">
-                <img src="" alt="boolean-logo">
+                <img src="./img/boolean-logo.png" id="boolean-logo" alt="logo_boolean">
             </div>
-            <p>loghi piccoli</p>
+            <ul>
+                <li><i class="fa-regular fa-user"></i></li>
+                <li><i class="fa-regular fa-heart"></i></li>
+                <li><i class="fa-solid fa-bag-shopping"></i></li>
+            </ul>
         </div>
     </header>
 <!-- inizio dei prodotti con le immagini -->
     <main>
         <section class="products">
             <div class="product">
-                <img src="" alt="">
-                <span>cuore</span>
-                <span>-50%</span>
-                <span>sostenibilitè</span>
+                <p class="heart">&hearts;</p>
+                <p class="sconto">-50%</p>
+                <p class="sostenibilità">sostenibilità </p>
+                <article class="description">
+                    <p> Levi'<span class="scritta-bold"> RELAXED FIT TEE UNISEX </span> <span class="cifra-rossa"> 14,99 </span> <span class="cifra-barrata"> 29,99 </span> </p>
+                </article>
             </div>
         </section>
     </main>
-
+<!-- footer -->
     <footer>
         <div class="black-footer">
             <section class="left">
-                <h3>Booleano s.r.l.</h3>
-                <p>Informazioni legali</p>
-                <p>Privacy</p>
-                <p>Diritto di recesso</p>
+                <ul>
+                    <li>
+                        <h3>Boolean s.r.l.</h3>
+                    </li>
+                    <li>
+                        Informazioni legali
+                    </li>
+                    <li>
+                        Privaci
+                    </li>
+                    <li>
+                        Diritto di recesso
+                    </li>
+                </ul>
             </section>
     
             <section class="right">
-                <h3>Trovaci anche su:</h3>
-                <p>logo</p>
-                <p>logo</p>
-                <p>logo</p>
-                <p>logo</p>
-                <p>logo</p>
+                <ul>
+                    <li>
+                        <h3>Trovaci anche su:</h3>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-square-twitter"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-facebook"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-instagram"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-pinterest"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-youtube"></i>
+                    </li>
+                </ul>
             </section>
         </div>
     </footer>
