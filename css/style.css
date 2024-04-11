@@ -22,7 +22,6 @@ li{
     margin: 0.5rem;
 }
 
-
 .header-orange{
     display: flex;
     background-color: #ff6900;
@@ -35,15 +34,13 @@ li{
 }
 
 .products{
-    padding: 100px;
-    width: 1000px;
-    align-items: center;
+    padding: 25px 40px 25px 120px;;
 
 }
 
 .product{
+    height:30rem;
     width: 30%;
-    height: 300px;
     color: black;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -62,8 +59,8 @@ li{
 
 .heart{
     position:absolute;
-    top:0.1rem;
-    right: 0rem;
+    top:1rem;
+    right: 1rem;
 }
 
 .sconto{
@@ -101,4 +98,12 @@ width: 20%;}
 
 .scritta-bold{
     font-weight: bold;
+}
+
+.sostenibilità-finale{
+    position:absolute;
+    bottom:0.1rem;
+    left: 0.1rem;
+    background-color: green;
+    color: white;
 }
