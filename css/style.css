@@ -35,20 +35,21 @@ li{
 }
 
 .products{
-    display: flex;
+    padding: 100px;
+    width: 1000px;
+    align-items: center;
+
 }
 
 .product{
-    width: 15%;
+    width: 30%;
     height: 300px;
     color: black;
-    background-image:url("../img/1.webp");
-    background-position: cover;
-    background-repeat: no-repeat;
-    background-size: contain;
     margin-top: 2rem;
     margin-bottom: 2rem;
     position: relative;
+    display: inline-block;
+
 }
 
 .black-footer{
@@ -67,21 +68,37 @@ li{
 
 .sconto{
     position:absolute;
-    left:0.5rem;
-    bottom:1rem;
+    left:0.3rem;
+    bottom:0.1rem;
     background-color: red;
     color: white;
 }
 
 .sostenibilità{
     position:absolute;
-    bottom:1rem;
-    left:2.6rem;
+    bottom:0.1rem;
+    left:3rem;
     background-color: green;
     color: white;
 }
 
-#boolean-logo{
-    height: 20%;
+.prima-immagine{
+    width: 100%;
 }
 
+
+#boolean-logo{
+width: 20%;}
+
+.cifra-rossa{
+    color: red;
+}
+
+.cifra-barrata{
+    text-decoration: line-through;
+    
+}
+
+.scritta-bold{
+    font-weight: bold;
+}
