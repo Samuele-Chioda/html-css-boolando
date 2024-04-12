@@ -61,6 +61,7 @@ li{
     position:absolute;
     top:1rem;
     right: 1rem;
+    z-index: 1;
 }
 
 .sconto{
@@ -69,6 +70,7 @@ li{
     bottom:0.1rem;
     background-color: red;
     color: white;
+    z-index: 1;
 }
 
 .sostenibilità{
@@ -77,12 +79,8 @@ li{
     left:3rem;
     background-color: green;
     color: white;
+    z-index: 1;
 }
-
-.prima-immagine{
-    width: 100%;
-}
-
 
 #boolean-logo{
 width: 20%;}
@@ -93,6 +91,8 @@ width: 20%;}
 
 .cifra-barrata{
     text-decoration: line-through;
+    z-index: 1;
+    position: relative;
     
 }
 
@@ -106,20 +106,54 @@ width: 20%;}
     left: 0.1rem;
     background-color: green;
     color: white;
+    z-index: 1;
 }
 
 .prima-immagine{
-    display:inline-block;
-}
-
-.secondary{
-    display:none;
+    opacity:1;
+    z-index: 1;
+    position: relative;
+    width: 100%;
 }
 
 .prima-immagine:hover{
-    display: none;
+    opacity:0;
 }
 
-.secondary:hover{
-    display:inline-block;
+.prima-sotto{
+    width: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+
+.seconda-sotto{
+    width: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+.terza-sotto{
+    width: 100%;
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+.quarta-sotto{
+    width: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+.quinta-sotto{
+    width: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+.sesta-sotto{
+    width: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
 }
