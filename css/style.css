@@ -107,3 +107,19 @@ width: 20%;}
     background-color: green;
     color: white;
 }
+
+.prima-immagine{
+    display:inline-block;
+}
+
+.secondary{
+    display:none;
+}
+
+.prima-immagine:hover{
+    display: none;
+}
+
+.secondary:hover{
+    display:inline-block;
+}
